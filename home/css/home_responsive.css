@@ -1,0 +1,232 @@
+@media screen and (max-width: 992px) {
+  .header .nav-bar .main-nav {
+    display: none;
+  }
+
+  .header .nav-bar .sub-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .nav-icon {
+    display: block !important;
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .header .nav-bar .search a {
+    right: 20px !important;
+  }
+
+  .about .container {
+    display: block !important;
+  }
+
+  .about {
+    padding: 50px 0 !important;
+  }
+  .about .title,
+  .about .text {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 50px;
+  }
+
+  .advertise {
+    display: block !important;
+    padding: 15px;
+  }
+
+  .advertise .title {
+    width: 100% !important;
+    min-height: 250px;
+    margin-top: 0px !important;
+  }
+  .advertise .text {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .categories .row .item {
+    width: 50% !important;
+  }
+
+  .dishes .row {
+    width: 50% !important;
+    padding: 15px 15px !important;
+  }
+  .stat {
+    height: 320px !important;
+    margin-bottom: 500px !important;
+  }
+
+  .stat .container {
+    position: unset !important;
+    padding: 60px 10px;
+  }
+
+  .stat .container .title {
+    padding: 0 !important;
+  }
+
+  .stat .row {
+    position: unset !important;
+    margin-top: 0 !important;
+  }
+
+  .stat .btn button {
+    margin-top: 10px !important;
+    width: 150px !important;
+  }
+
+  .stat .btn .btn-1 {
+    margin-right: 5px !important;
+  }
+
+  .stat .btn .btn-2 {
+    margin-left: 5px !important;
+  }
+
+  .stat .row {
+    padding: 0 !important;
+    margin-top: 30px;
+    padding: 0 15px !important;
+  }
+
+  .stat .row .col {
+    width: 50% !important;
+    padding: 15px 15px !important;
+  }
+
+  .video {
+    padding: 150px 0 50px 0 !important;
+  }
+
+  .postes .main .item {
+    width: 50% !important;
+    padding: 30px 15px !important;
+  }
+
+  #footer .diner {
+    width: 50% !important;
+    margin-bottom: 50px;
+  }
+  #footer .link {
+    width: 50% !important;
+    padding-left: 20px;
+  }
+
+  #footer .info {
+    width: 50% !important;
+  }
+
+  #footer .subscribe {
+    width: 50% !important;
+    padding-left: 20px;
+  }
+
+  #footer .foot .right {
+    width: 100% !important;
+  }
+  #footer .foot .more {
+    width: 100% !important;
+  }
+
+  #footer .foot .more a {
+    margin-left: 15px !important;
+  }
+
+  #footer .subscribe input {
+    padding: 14px 50px !important;
+  }
+
+  #footer .subscribe button {
+    width: 328.33px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #menu .quit-btn {
+    right: 25px !important;
+  }
+
+  .dishes .row {
+    width: 100% !important;
+    padding: 15px 0 !important;
+  }
+
+  .dishes .row .item {
+    padding: 40px 50px !important;
+  }
+
+  .stat .row .col {
+    width: 100% !important;
+  }
+
+  .video {
+    padding: 670px 0 50px 0 !important;
+  }
+
+  .video .container {
+    min-height: 400px !important;
+  }
+
+  .postes {
+    padding: 40px 15px !important;
+  }
+
+  .postes .main .item {
+    width: 100% !important;
+    padding: 30px 0 !important;
+  }
+
+  .comment {
+    padding: 50px 15px !important;
+  }
+
+  #footer .diner {
+    width: 100% !important;
+  }
+  #footer .link {
+    width: 50% !important;
+    margin: 30px 0;
+    padding-left: 0;
+  }
+
+  #footer .info {
+    width: 50% !important;
+    margin: 30px 0;
+  }
+
+  #footer .subscribe {
+    width: 100% !important;
+    padding-left: 0;
+  }
+
+  #footer .subscribe input {
+    width: 100%;
+  }
+
+  #footer .subscribe button {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #menu .quit-btn {
+    right: 20px !important;
+  }
+
+  .header .nav-bar .search {
+    display: none;
+  }
+
+  .header .content {
+    margin-top: 50px !important;
+  }
+
+  .categories .row .item {
+    width: 100% !important;
+    padding: 15px 0 !important;
+  }
+}

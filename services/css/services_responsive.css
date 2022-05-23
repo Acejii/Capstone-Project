@@ -1,0 +1,193 @@
+@media screen and (max-width: 992px) {
+  .header .nav-bar .main-nav {
+    display: none;
+  }
+
+  .header .nav-bar .sub-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header .nav-icon {
+    display: block !important;
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .header .nav-bar .search a {
+    right: 20px !important;
+  }
+
+  .offer .container {
+    display: block !important;
+  }
+
+  .offer {
+    margin: 50px 0 !important;
+  }
+  .offer .title,
+  .offer .text {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 50px;
+  }
+
+  .dishes .row {
+    width: 50% !important;
+    padding: 15px 15px !important;
+  }
+
+  .slidebar {
+    height: 320px !important;
+  }
+
+  .slidebar .container {
+    position: unset !important;
+    padding: 60px 10px;
+  }
+
+  .slidebar .container .title {
+    padding: 0 !important;
+  }
+
+  .slidebar .row {
+    position: unset !important;
+  }
+
+  .slidebar .btn button {
+    margin-top: 10px !important;
+    width: 150px !important;
+  }
+
+  .slidebar .btn .btn-1 {
+    margin-right: 5px !important;
+  }
+
+  .slidebar .btn .btn-2 {
+    margin-left: 5px !important;
+  }
+
+  .menu .container .row {
+    width: 100%;
+  }
+
+  #footer {
+    padding: 50px 30px 10px 30px;
+  }
+
+  #footer .diner {
+    width: 50% !important;
+    margin-bottom: 50px;
+  }
+  #footer .link {
+    width: 50% !important;
+    padding-left: 20px;
+  }
+
+  #footer .info {
+    width: 50% !important;
+  }
+
+  #footer .subscribe {
+    width: 50% !important;
+    padding-left: 20px;
+  }
+
+  #footer .foot .right {
+    width: 100% !important;
+  }
+  #footer .foot .more {
+    width: 100% !important;
+  }
+
+  #footer .foot .more a {
+    margin-left: 15px !important;
+  }
+
+  #footer .subscribe input {
+    padding: 14px 50px !important;
+  }
+
+  #footer .subscribe button {
+    width: 328.33px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    min-height: 300px;
+  }
+
+  .header .content {
+    padding-top: 80px;
+  }
+
+  #menu .quit-btn {
+    right: 25px !important;
+  }
+
+  .dishes .row {
+    width: 100% !important;
+    padding: 15px 0 !important;
+  }
+
+  .dishes .row .item {
+    padding: 40px 50px !important;
+  }
+
+  #footer {
+    padding: 50px 0 10px 0;
+  }
+
+  #footer .container {
+    padding: 0 15px;
+  }
+  #footer .diner {
+    width: 100% !important;
+  }
+  #footer .link {
+    width: 50% !important;
+    margin: 30px 0;
+    padding-left: 0;
+  }
+
+  #footer .info {
+    width: 50% !important;
+    margin: 30px 0;
+  }
+
+  #footer .subscribe {
+    width: 100% !important;
+    padding-left: 0;
+  }
+
+  #footer .subscribe input {
+    width: 100%;
+  }
+
+  #footer .subscribe button {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header .nav-bar .search {
+    display: none;
+  }
+
+  #menu .quit-btn {
+    right: 20px !important;
+  }
+
+  .offer .container {
+    padding: 0 15px;
+  }
+
+  .dishes {
+    margin: 70px 15px;
+  }
+
+  .menu .container .row {
+    padding: 0;
+  }
+}

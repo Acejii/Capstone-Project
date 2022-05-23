@@ -1,0 +1,95 @@
+.header .nav-bar .search .search-text {
+  background-color: #232220;
+}
+
+.header .nav-bar .search i {
+  color: #fff;
+}
+
+.about {
+  background-color: #232220;
+  color: #fff;
+}
+
+.about .text p {
+  color: #c2d0da;
+}
+
+.advertise .title {
+  position: relative;
+}
+.advertise .title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.categories {
+  background-color: #282828;
+  color: #fff;
+}
+
+.dishes {
+  background-color: #232220;
+}
+.dishes .row .item {
+  background-color: #232220;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.dishes .row .text p {
+  color: #c2d0da;
+}
+
+.dishes .row .title .icon {
+  background-color: #282828;
+}
+
+.stat {
+  background-color: #232220;
+}
+
+.stat .row {
+  background-color: #232220;
+}
+
+.stat .row .col .item {
+  background-color: #282828;
+  color: #fff;
+}
+
+.stat .row .col .item p {
+  color: #c2d0da;
+}
+
+.video {
+  background-color: #232220;
+}
+
+.postes {
+  background-color: #282828;
+  color: #fff;
+}
+
+.postes .main .item .content h1 {
+  color: #fff;
+}
+
+.postes .main .item .content p {
+  color: #c2d0da;
+}
+
+.postes .main .item .bloger .btn a {
+  color: #fff;
+}
+
+.comment {
+  background-color: #232220;
+  color: #fff;
+}
+
+.comment .content .mySlides .text p {
+  color: #c2d0da;
+}

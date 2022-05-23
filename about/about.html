@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diner Restaurants</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/about_style.css" />
+    <link rel="stylesheet" href="./css/about_responsive.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <button class="quit-btn" onclick="turnOff()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="main-nav">
+        <div class="item">
+          <a href="../home/home.html">Home</a>
+        </div>
+        <div class="item">
+          <a href="../about/about.html">About</a>
+        </div>
+        <div class="item">
+          <a href="../services/services.html">Services</a>
+        </div>
+        <div class="item">
+          <a href="../blog/blog.html">Blog</a>
+        </div>
+        <div class="item">
+          <a href="../contact/contact.html">Contact</a>
+        </div>
+        <div class="item">
+          <a href="../email/email.html">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="nav-bar">
+          <a href="#">
+            <img src="./img/logo.jpg" alt="logo" />
+            <span class="logo">Diner</span>
+          </a>
+          <div class="main-nav">
+            <a href="../home/home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="../services/services.html">Service</a>
+            <a href="../blog/blog.html">Blog</a>
+            <a href="../contact/contact.html">Contact</a>
+            <a href="../email/email.html">Email</a>
+          </div>
+          <div class="sub-nav">
+            <div class="search">
+              <input
+                class="search-text"
+                type="search"
+                placeholder="Search here..."
+              />
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="moon">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <button class="nav-icon" onclick="turnOn()">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <div class="content">
+          <a href="../home/home.html">Home</a>
+          <i class="fa fa-chevron-right"></i>
+          <span>About Us</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="story">
+      <div class="title">
+        <h1>The Story</h1>
+        <h2>About Us</h2>
+      </div>
+
+      <div class="content">
+        <div class="about-img">
+          <img src="./img/banner1.jpg" alt="Photo" />
+        </div>
+        <div class="text">
+          <h1>We found our creative space that is open for you.</h1>
+          <p>
+            Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
+            lacinia id erat eu ullamcorper. Nunc id ipsum fringilla, gravida
+            felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus
+            lacinia
+          </p>
+          <p>
+            Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
+            lacinia id erat eu ullamcorper.
+          </p>
+          <button>
+            <span>Read More</span>
+            <i class="fa fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="row">
+          <h1>What we Do ?.</h1>
+        </div>
+        <div class="row">
+          <a href="#">Strategy and Timing</a>
+          <p>
+            Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.
+          </p>
+        </div>
+        <div class="row">
+          <a href="#">Leaders Of Tomorrow</a>
+          <p>
+            Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.
+          </p>
+        </div>
+        <div class="row">
+          <a href="#">Brand - Centered Buying</a>
+          <p>
+            Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skill">
+      <div class="title">
+        <h1>Skills</h1>
+        <h2>Strategy is at the Heart of What We Do</h2>
+        <p>Strategy is at the Heart of What We Do</p>
+        <h3>Digital Strategy</h3>
+        <progress class="progress-1" value="80" max="100"></progress>
+        <h3>Financial Services</h3>
+        <progress class="progress-2" value="95" max="100"></progress>
+        <h3>Counsalting</h3>
+        <progress class="progress-3" value="55" max="100"></progress>
+      </div>
+      <div class="skill-img1">
+        <img src="./img/g1.jpg" alt="Photo" />
+      </div>
+      <div class="skill-img2">
+        <img src="./img/g2.jpg" alt="Photo" />
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="title">
+        <h1>Our team</h1>
+        <h2>Meet Our Chefs</h2>
+      </div>
+
+      <div class="main">
+        <div class="item">
+          <img src="./img/chef2.jpg" alt="Photo" />
+          <h3>Daniel Jacobs</h3>
+          <p>Chef</p>
+        </div>
+        <div class="item">
+          <img src="./img/chef1.jpg" alt="Photo" />
+          <h3>Claire Daniel</h3>
+          <p>Chef</p>
+        </div>
+        <div class="item">
+          <img src="./img/chef2.jpg" alt="Photo" />
+          <h3>Daniel Hunt</h3>
+          <p>Chef</p>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="diner">
+          <h1>Diner</h1>
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper
+            at elit.
+          </p>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+        <div class="link">
+          <h1>Usefull Links</h1>
+          <a href="../about/about.html">About Us</a>
+          <a href="../services/services.html">Services</a>
+          <a href="../blog/blog.html">Blog posts</a>
+          <a href="#">Careers</a>
+          <a href="../contact/contact.html">Contact us</a>
+        </div>
+
+        <div class="info">
+          <h1>More Info</h1>
+          <a href="#">History</a>
+          <a href="#">Vision & Values</a>
+          <a href="#">Awards</a>
+          <a href="#">Media</a>
+          <a href="#">Support</a>
+        </div>
+
+        <div class="subscribe">
+          <h1>Subscribe to our Newsletter</h1>
+          <p>
+            Enter your email and receive the latest news, updates and special
+            offers from us.
+          </p>
+          <input type="email" placeholder="Your Email Address" /> <br />
+          <button>Subcribe Now</button>
+        </div>
+        <div class="foot">
+          <div class="right">
+            <span
+              >© 2021 Diner. All rights reserved. Design by
+              <a href="#">W3Layouts</a></span
+            >
+          </div>
+          <div class="more">
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function turnOn() {
+        document.getElementById("menu").style.display = "block";
+      }
+      function turnOff() {
+        document.getElementById("menu").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

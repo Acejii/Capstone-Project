@@ -1,0 +1,218 @@
+@media screen and (max-width: 992px) {
+  .header .nav-bar .main-nav {
+    display: none;
+  }
+
+  .header .nav-bar .sub-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header .nav-icon {
+    display: block !important;
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .header .nav-bar .search a {
+    right: 20px !important;
+  }
+
+  .story .content .about-img {
+    width: 100%;
+  }
+
+  .story .content,
+  .story .title {
+    padding: 0 15px;
+  }
+
+  .story .content .text {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .story .footer .row {
+    width: 50%;
+    padding: 15px;
+  }
+
+  .skill {
+    flex-wrap: wrap;
+    padding: 80px 45px;
+  }
+
+  .skill .title {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  .skill .skill-img1 {
+    width: 47.5%;
+    margin-right: 2.5%;
+  }
+  .skill .skill-img2 {
+    width: 47.5%;
+    margin-left: 2.5%;
+  }
+
+  .team {
+    padding: 80px 30px;
+  }
+
+  .team .main .item {
+    width: 50%;
+    padding: 15px;
+  }
+
+  #footer {
+    padding: 50px 30px 10px 30px;
+  }
+
+  #footer .diner {
+    width: 50% !important;
+    margin-bottom: 50px;
+  }
+  #footer .link {
+    width: 50% !important;
+    padding-left: 20px;
+  }
+
+  #footer .info {
+    width: 50% !important;
+  }
+
+  #footer .subscribe {
+    width: 50% !important;
+    padding-left: 20px;
+  }
+
+  #footer .foot .right {
+    width: 100% !important;
+  }
+  #footer .foot .more {
+    width: 100% !important;
+  }
+
+  #footer .foot .more a {
+    margin-left: 15px !important;
+  }
+
+  #footer .subscribe input {
+    padding: 14px 50px !important;
+  }
+
+  #footer .subscribe button {
+    width: 328.33px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #menu .quit-btn {
+    right: 25px !important;
+  }
+
+  .header {
+    min-height: 300px;
+  }
+
+  .header .content {
+    padding-top: 80px;
+  }
+
+  .story {
+    padding: 40px 15px !important;
+  }
+
+  .story .content,
+  .story .title {
+    padding: 0;
+  }
+
+  .story .footer .row {
+    width: 100%;
+    padding: 0 0;
+    margin: 15px 0;
+  }
+
+  .story .title h2 {
+    font-size: 28px;
+  }
+
+  .skill {
+    flex-wrap: wrap;
+    padding: 80px 15px;
+  }
+
+  .skill .title {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .skill .skill-img1 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .skill .skill-img2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .team {
+    padding: 80px 15px;
+  }
+
+  .team .main .item {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  #footer {
+    padding: 50px 0 10px 0;
+  }
+
+  #footer .container {
+    padding: 0 15px;
+  }
+  #footer .diner {
+    width: 100% !important;
+  }
+  #footer .link {
+    width: 50% !important;
+    margin: 30px 0;
+    padding-left: 0;
+  }
+
+  #footer .info {
+    width: 50% !important;
+    margin: 30px 0;
+  }
+
+  #footer .subscribe {
+    width: 100% !important;
+    padding-left: 0;
+  }
+
+  #footer .subscribe input {
+    width: 100%;
+  }
+
+  #footer .subscribe button {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #menu .quit-btn {
+    right: 20px !important;
+  }
+  
+  .header .nav-bar .search {
+    display: none;
+  }
+}

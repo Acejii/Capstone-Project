@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diner Restaurants</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/home_responsive.css" />
+    <link rel="stylesheet" href="./css/home_style.css" />
+    <link id="dark-mode-change" rel="stylesheet" href="./css/home_style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <button class="quit-btn" onclick="turnOff()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="main-nav">
+        <div class="item">
+          <a href="../home/home.html">Home</a>
+        </div>
+        <div class="item">
+          <a href="../about/about.html">About</a>
+        </div>
+        <div class="item">
+          <a href="../services/services.html">Services</a>
+        </div>
+        <div class="item">
+          <a href="../blog/blog.html">Blog</a>
+        </div>
+        <div class="item">
+          <a href="../contact/contact.html">Contact</a>
+        </div>
+        <div class="item">
+          <a href="../email/email.html">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="nav-bar">
+          <a href="#">
+            <img src="./img/logo.jpg" alt="logo" />
+            <span class="logo">Diner</span>
+          </a>
+          <div class="main-nav">
+            <a href="../home/home.html">Home</a>
+            <a href="../about/about.html">About</a>
+            <a href="../services/services.html">Service</a>
+            <a href="../blog/blog.html">Blog</a>
+            <a href="../contact/contact.html">Contact</a>
+            <a href="../email/email.html">Email</a>
+          </div>
+          <div class="sub-nav">
+            <div class="search">
+              <input
+                class="search-text"
+                type="search"
+                placeholder="Search here..."
+              />
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
+            <button class="moon" onclick="darkOn()">
+              <i class="fa-solid fa-moon" id="moon-icon"></i>
+              <i class="fas fa-sun" id="sun-icon" style="display: none"></i>
+            </button>
+            <button class="nav-icon" onclick="turnOn()">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <div class="content">
+          <h1>The Only Thing We Love More Than Food Is You!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+            vitae sit.Ea ipsum sed consequuntur illum facere.
+          </p>
+          <button>
+            <span>Read More</span>
+            <i class="fa fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="container">
+        <div class="title">
+          <h1>About Us</h1>
+          <p>We found our creative space that is open for you.</p>
+        </div>
+        <div class="text">
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit.
+            Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet. Lorem ipsum
+            init dolor sit, amet elit. Dolor ipsum non velit, culpa!Lorem ipsum
+            init dolor sit.
+          </p>
+          <p style="margin-top: 30px">
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit.
+            Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="advertise">
+      <div class="title">
+        <!-- <img src="./img/banner3.jpg" alt="Logo" /> -->
+      </div>
+      <div class="text">
+        <div class="book">
+          <h2>More than 3000 Restaurants</h2>
+          <h1>Book a table easly at the best price</h1>
+          <p>
+            Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales
+            quis. Integer sit amet mattis quam.Vivamus a ligula quam tesque et
+            libero ut justo ultrices in.
+          </p>
+        </div>
+        <div class="choice">
+          <div class="item">
+            <i class="fa fa-thumbs-up"></i>
+            <h1>Best Deals</h1>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+          </div>
+          <div class="item">
+            <i class="fa fa-cutlery"></i>
+            <h1>Best Food</h1>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="title">
+        <h1>What's New</h1>
+        <h2>Popular Categories</h2>
+      </div>
+
+      <div class="row">
+        <div class="item">
+          <img src="./img/g1.jpg" alt="Photo" />
+          <div class="text">
+            <a href="#" class="name">Vegetarian</a>
+            <p class="price">$350</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/g2.jpg" alt="Photo" />
+          <div class="text">
+            <a href="#" class="name">Drinks</a>
+            <p class="price">$550</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/g3.jpg" alt="Photo" />
+          <div class="text">
+            <a href="#" class="name">Lunch</a>
+            <p class="price">$650</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/g4.jpg" alt="Photo" />
+          <div class="text">
+            <a href="#" class="name">Bakery</a>
+            <p class="price">$550</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/g5.jpg" alt="Photo" />
+          <div class="text">
+            <a href="#" class="name">Desserts</a>
+            <p class="price">$750</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./img/g6.jpg" alt="Photo" />
+          <div class="text">
+            <a href="#" class="name">Pizza</a>
+            <p class="price">$850</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dishes">
+      <div class="row">
+        <div class="item">
+          <div class="title">
+            <div class="icon">
+              <i class="fa fa-users"></i>
+            </div>
+            <div class="dish">
+              <p>01</p>
+              <h1>Soup</h1>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+              vitae sit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="item">
+          <div class="title">
+            <div class="icon">
+              <i class="fa fa-shield"></i>
+            </div>
+            <div class="dish">
+              <p>02</p>
+              <h1>Drinks</h1>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+              vitae sit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="item">
+          <div class="title">
+            <div class="icon">
+              <i class="fa fa-thermometer-full"></i>
+            </div>
+            <div class="dish">
+              <p>03</p>
+              <h1>Pizza</h1>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+              vitae sit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="item">
+          <div class="title">
+            <div class="icon">
+              <i class="fa fa-american-sign-language-interpreting"></i>
+            </div>
+            <div class="dish">
+              <p>04</p>
+              <h1>Breakfast</h1>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+              vitae sit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="item">
+          <div class="title">
+            <div class="icon">
+              <i class="fa fa-paint-brush"></i>
+            </div>
+            <div class="dish">
+              <p>05</p>
+              <h1>Lunch</h1>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+              vitae sit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="item">
+          <div class="title">
+            <div class="icon">
+              <i class="fa fa-eraser"></i>
+            </div>
+            <div class="dish">
+              <p>06</p>
+              <h1>Dinner</h1>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+              vitae sit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stat">
+      <div class="container">
+        <div class="title">
+          <h1>Deliciousness jumping into the mouth.</h1>
+        </div>
+        <div class="btn">
+          <button class="btn-1">
+            <span>Read More</span>
+            <i class="fa fa-chevron-right"></i>
+          </button>
+          <button class="btn-2">
+            <span>Contact Us</span>
+            <i class="fa fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="item">
+            <i class="fa-solid fa-building"></i>
+            <h1>15,100</h1>
+            <p>Branches</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <i class="fa fa-cutlery"></i>
+            <h1>19,256</h1>
+            <p>Food Items</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <i class="fa fa-users"></i>
+            <h1>12,100</h1>
+            <p>Chefs</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="item">
+            <i class="fa-solid fa-face-smile"></i>
+            <h1>2,560</h1>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="container">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </section>
+    <section class="postes">
+      <div class="title">
+        <h1>Latest Posts</h1>
+        <p>Blog Posts</p>
+      </div>
+      <div class="main">
+        <div class="row">
+          <div class="item">
+            <div class="img">
+              <a href="#">
+                <img src="./img/banner1.jpg" alt="Photo" />
+              </a>
+              <div class="text">
+                <a href="#">Reciepe</a>
+                <span>
+                  <i class="fa-solid fa-clock"></i>
+                  10 Min Cook
+                </span>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#">
+                <h1>The Best Cookie Recipes To Bake This Weekend</h1>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+
+            <div class="bloger">
+              <div class="name">
+                <img src="./img/team1.jpg" alt="Photo" />
+                <span>Rashed Kabir</span>
+              </div>
+              <div class="btn">
+                <a href="#">
+                  <span>Read More</span>
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <a href="#">
+                <img src="./img/banner2.jpg" alt="Photo" />
+              </a>
+              <div class="text">
+                <a href="#">Soup</a>
+                <span>
+                  <i class="fa-solid fa-clock"></i>
+                  10 Min Cook
+                </span>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#">
+                <h1>The Best Cookie Recipes To Bake This Weekend</h1>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+
+            <div class="bloger">
+              <div class="name">
+                <img src="./img/team2.jpg" alt="Photo" />
+                <span>Jannatul Ferdous</span>
+              </div>
+              <div class="btn">
+                <a href="#">
+                  <span>Read More</span>
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <a href="#">
+                <img src="./img/banner1.jpg" alt="Photo" />
+              </a>
+              <div class="text">
+                <a href="#">Drinks</a>
+                <span>
+                  <i class="fa-solid fa-clock"></i>
+                  15 Min Cook
+                </span>
+              </div>
+            </div>
+            <div class="content">
+              <a href="#">
+                <h1>The Best Cookie Recipes To Bake This Weekend</h1>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+
+            <div class="bloger">
+              <div class="name">
+                <img src="./img/team3.jpg" alt="Photo" />
+                <span>Rashed Kabir</span>
+              </div>
+              <div class="btn">
+                <a href="#">
+                  <span>Read More</span>
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comment">
+      <div class="title">
+        <h1>Testimonials</h1>
+        <p>What People Say</p>
+      </div>
+
+      <div class="content">
+        <!-- carousel -->
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="text">
+              <img src="./img/team1.jpg" />
+              <h2>''</h2>
+              <h1>OMG! I cannot believe. It's Awesome</h1>
+              <p>
+                My new site is so much faster and easier to work with than my
+                old site. They are here to help the customers to get their
+                success. Nemo sit eos, quod minus eius illo labore. Pellen
+                tesque libero ut justo, ultrices in ligula.
+              </p>
+              <h3>Johnson William</h3>
+              <p>Customer</p>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="text">
+              <img src="./img/team2.jpg" />
+              <h2>''</h2>
+              <h1>Simply the best. Better than all the rest.</h1>
+              <p>
+                My new site is so much faster and easier to work with than my
+                old site. They are here to help the customers to get their
+                success. Nemo sit eos, quod minus eius illo labore. Pellen
+                tesque libero ut justo, ultrices in ligula.
+              </p>
+              <h3>Alexander Sakura</h3>
+              <p>Customer</p>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="text">
+              <img src="./img/team3.jpg" />
+              <h2>''</h2>
+              <h1>OMG! I cannot believe. It's Awesome</h1>
+              <p>
+                My new site is so much faster and easier to work with than my
+                old site. They are here to help the customers to get their
+                success. Nemo sit eos, quod minus eius illo labore. Pellen
+                tesque libero ut justo, ultrices in ligula.
+              </p>
+              <h3>John Wilson</h3>
+              <p>Customer</p>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="text">
+              <img src="./img/team2.jpg" />
+              <h2>''</h2>
+              <h1>OMG! I cannot believe. It's Awesome</h1>
+              <p>
+                My new site is so much faster and easier to work with than my
+                old site. They are here to help the customers to get their
+                success. Nemo sit eos, quod minus eius illo labore. Pellen
+                tesque libero ut justo, ultrices in ligula.
+              </p>
+              <h3>Julia Sakura</h3>
+              <p>Customer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="diner">
+          <h1>Diner</h1>
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper
+            at elit.
+          </p>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+        <div class="link">
+          <h1>Usefull Links</h1>
+          <a href="../about/about.html">About Us</a>
+          <a href="../services/services.html">Services</a>
+          <a href="../blog/blog.html">Blog posts</a>
+          <a href="#">Careers</a>
+          <a href="../contact/contact.html">Contact us</a>
+        </div>
+
+        <div class="info">
+          <h1>More Info</h1>
+          <a href="#">History</a>
+          <a href="#">Vision & Values</a>
+          <a href="#">Awards</a>
+          <a href="#">Media</a>
+          <a href="#">Support</a>
+        </div>
+
+        <div class="subscribe">
+          <h1>Subscribe to our Newsletter</h1>
+          <p>
+            Enter your email and receive the latest news, updates and special
+            offers from us.
+          </p>
+          <input type="email" placeholder="Your Email Address" /> <br />
+          <button>Subcribe Now</button>
+        </div>
+        <div class="foot">
+          <div class="right">
+            <span
+              >© 2021 Diner. All rights reserved. Design by
+              <a href="#">W3Layouts</a></span
+            >
+          </div>
+          <div class="more">
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      function turnOn() {
+        document.getElementById("menu").style.display = "block";
+      }
+      function turnOff() {
+        document.getElementById("menu").style.display = "none";
+      }
+
+      function darkOn() {
+        var darkModeChange = document.querySelector("#dark-mode-change");
+        if (darkModeChange.getAttribute("href") === "./css/home_style.css") {
+          darkModeChange.href = "./css/home_darkmode.css";
+        } else {
+          darkModeChange.href = "./css/home_style.css";
+        }
+        var moon = document.getElementById("moon-icon");
+        var sun = document.getElementById("sun-icon");
+        if (sun.style.display == "none") {
+          moon.style.display = "none";
+          sun.style.display = "block";
+        } else {
+          moon.style.display = "block";
+          sun.style.display = "none";
+        }
+      }
+      function darkOff() {}
+    </script>
+  </body>
+</html>
