@@ -31,7 +31,11 @@
     />
     <link rel="stylesheet" href="./home/css/home_responsive.css" />
     <link rel="stylesheet" href="./home/css/home_style.css" />
-    <link id="dark-mode-change" rel="stylesheet" href="./css/home_style.css" />
+    <link
+      id="dark-mode-change"
+      rel="stylesheet"
+      href="./home/css/home_style.css"
+    />
   </head>
   <body>
     <div id="menu">
@@ -680,10 +684,12 @@
 
       function darkOn() {
         var darkModeChange = document.querySelector("#dark-mode-change");
-        if (darkModeChange.getAttribute("href") === "./css/home_style.css") {
-          darkModeChange.href = "./css/home_darkmode.css";
+        if (
+          darkModeChange.getAttribute("href") === "./home/css/home_style.css"
+        ) {
+          darkModeChange.href = "./home/css/home_darkmode.css";
         } else {
-          darkModeChange.href = "./css/home_style.css";
+          darkModeChange.href = "./home/css/home_style.css";
         }
         var moon = document.getElementById("moon-icon");
         var sun = document.getElementById("sun-icon");
